@@ -7,7 +7,7 @@ import Accelerate
 
 public class FaceTemplateMigration {
     
-    public lazy var `default` = FaceTemplateMigration()
+    public static let `default` = FaceTemplateMigration()
     
     private let fpvcDecoder: FPVCDecoder = FPVCDecoder()
     
